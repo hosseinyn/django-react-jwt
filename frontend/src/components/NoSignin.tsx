@@ -31,7 +31,7 @@ const NoSignin = () => {
                     }
 
                 } catch (e) {
-                    console.log(e)
+                    setAuthState("not-authenticated")
                 }
 
             }
